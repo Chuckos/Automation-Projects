@@ -4,7 +4,8 @@
   "description": "Example of api testing using mocha",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "person": "mocha"
   },
   "repository": {
     "type": "git",
@@ -21,9 +22,12 @@
   },
   "homepage": "https://github.com/Chuckos/Automation-Projects#readme",
   "dependencies": {
+    "chai": "^3.5.0",
     "faker": "^4.1.0",
     "json-server": "^0.10.0",
     "lodash": "^4.17.4",
-    "mocha": "^3.3.0"
+    "mocha": "^3.3.0",
+    "should": "^11.2.1",
+    "supertest": "^3.0.0"
   }
 }
