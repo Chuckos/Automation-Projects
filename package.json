@@ -1,0 +1,23 @@
+{
+  "name": "mocha-api-testing",
+  "version": "1.0.0",
+  "description": "Example of api testing using mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chuckos/Automation-Projects.git"
+  },
+  "keywords": [
+    "mocha",
+    "api-testing"
+  ],
+  "author": "Charles Adeeko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chuckos/Automation-Projects/issues"
+  },
+  "homepage": "https://github.com/Chuckos/Automation-Projects#readme"
+}
