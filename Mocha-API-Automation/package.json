@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Chuckos/Automation-Projects/issues"
   },
-  "homepage": "https://github.com/Chuckos/Automation-Projects#readme"
+  "homepage": "https://github.com/Chuckos/Automation-Projects#readme",
+  "dependencies": {
+    "mocha": "^3.3.0"
+  }
 }
