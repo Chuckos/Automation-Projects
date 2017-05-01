@@ -4,7 +4,7 @@
   "description": "Example of api testing using mocha",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/Chuckos/Automation-Projects#readme",
   "dependencies": {
+    "faker": "^4.1.0",
+    "json-server": "^0.10.0",
+    "lodash": "^4.17.4",
     "mocha": "^3.3.0"
   }
 }
