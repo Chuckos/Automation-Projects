@@ -74,7 +74,7 @@ test.describe('Product Cloud Consumer Page', () => {
         // Press Tab
         await page.locator('input[name="email"]').press('Tab');
         // Fill input[name="password"]
-        await page.locator('input[name="password"]').fill('Evt01!!??');
+        await page.locator('input[name="password"]').fill('Password');
         // Click text=Login
         await Promise.all([
             page.waitForNavigation(/*{ url: 'https://thng-dashboard-evtci.elastic.evrythng.net/dashboards/quick-start' }*/),
